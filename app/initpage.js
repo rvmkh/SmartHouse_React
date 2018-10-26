@@ -40,6 +40,10 @@ export class Initpage extends React.Component {
               <td>Lamp Location <input type="text" onChange={this.setLocation} /></td>
               <td><button type="button" align="center" onClick={this.setLamp} value={this.state.loc}><Link to="/lamp">New Lamp</Link></button></td>
             </tr>
+            <tr align="left">
+              <td><Link to="/tv">TVset</Link></td>
+              <td><Link to="/condey">Conditioner</Link></td>
+            </tr>
           </tbody>
         </table>
       </div>
